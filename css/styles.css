@@ -50,7 +50,7 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* background is not set on container, but the section is contains */
+    /* background is not set on container, but the section it contains */
 }
 
 .header-flex {
@@ -393,4 +393,27 @@ nav li {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.footer-left {
+    /* contains footer's logo and slogan paragraph */
+    margin-right: 120px;
+}
+.footer-right {
+    /* contains social networks stuff */
+}
+.footer-social {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer-social-detail {
+    display: flex;
+    gap: 16px;
+}
+.footer-wrapper { 
+    display: flex;
+    justify-content: baseline;
 }
