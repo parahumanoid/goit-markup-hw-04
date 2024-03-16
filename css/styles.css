@@ -212,7 +212,7 @@ nav li {
     display: flex;
     gap: 24px;
 }
-.advantage-item-container {
+.advantage-icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
