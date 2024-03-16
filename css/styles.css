@@ -212,6 +212,16 @@ nav li {
     display: flex;
     gap: 24px;
 }
+.advantage-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 122px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 .advantages-list-item {
     width: calc((100% - 72px) / 4);
 }
