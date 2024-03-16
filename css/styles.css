@@ -402,16 +402,36 @@ nav li {
     /* contains social networks stuff */
 }
 .footer-social {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: white;
     margin-bottom: 16px;
 }
-.footer-social-detail {
+.footer-social-list {
     display: flex;
     gap: 16px;
+}
+.footer-social-item {
+    width: 40px;
+    height: 40px;
+}
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover-social-lini:hover,
+.hover-social-link:focus {
+    background-color: #31d0aa;
+}
+.footer-social-svg {
+    fill: #f4f4fd;
 }
 .footer-wrapper { 
     display: flex;
