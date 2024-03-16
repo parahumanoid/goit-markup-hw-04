@@ -291,7 +291,6 @@ nav li {
     display: flex;
     justify-content: center;
     gap: 24px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .networks-item {
     width: 40px;
@@ -305,6 +304,7 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .networks-link:hover,
 .networks-link:focus {
