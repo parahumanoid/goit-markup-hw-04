@@ -415,5 +415,5 @@ nav li {
 }
 .footer-wrapper { 
     display: flex;
-    justify-content: baseline;
+    align-items: baseline;
 }
