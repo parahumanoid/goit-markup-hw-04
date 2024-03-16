@@ -425,9 +425,10 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hover-social-lini:hover,
-.hover-social-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: #31d0aa;
 }
 .footer-social-svg {
