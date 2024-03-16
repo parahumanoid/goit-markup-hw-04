@@ -398,9 +398,9 @@ nav li {
     /* contains footer's logo and slogan paragraph */
     margin-right: 120px;
 }
-.footer-right {
-    /* contains social networks stuff */
-}
+/* .footer-right {
+    contains social networks stuff
+} */
 .footer-social {
     font-weight: 500;
     font-size: 16px;
