@@ -1,3 +1,7 @@
+* {
+    --hero-gray: rgba(46, 47, 66, 0.7);
+    --ocean: #404BBF;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -133,6 +137,8 @@ nav li {
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(var(--hero-gray), var(--hero-gray)), url(../images/people-office.png);
+    background-size: cover;
 }
 
 .page-header {
